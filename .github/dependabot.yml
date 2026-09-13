@@ -19,7 +19,9 @@ updates:
       - "npm"
     open-pull-requests-limit: 5
     versioning-strategy: "increase-if-necessary"
-
+    commit-message:
+      prefix: "deps"
+      
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
