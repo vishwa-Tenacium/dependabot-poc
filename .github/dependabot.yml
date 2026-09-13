@@ -18,6 +18,7 @@ updates:
       - "dependencies"
       - "npm"
     open-pull-requests-limit: 5
+    versioning-strategy: "increase-if-necessary"
 
   - package-ecosystem: "docker"
     directory: "/"
