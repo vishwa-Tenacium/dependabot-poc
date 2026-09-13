@@ -14,6 +14,9 @@ updates:
       npm-dependencies:
         patterns:
           - "*"
+    labels:
+      - "dependencies"
+      - "npm"
 
   - package-ecosystem: "docker"
     directory: "/"
