@@ -17,6 +17,7 @@ updates:
     labels:
       - "dependencies"
       - "npm"
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "docker"
     directory: "/"
