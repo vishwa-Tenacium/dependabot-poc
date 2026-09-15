@@ -6,6 +6,15 @@ updates:
     schedule:
       interval: "daily"
 
+    labels:
+      - "dependencies"
+      - "python"
+
+    open-pull-requests-limit: 5
+
+    commit-message:
+      prefix: "deps"
+
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
